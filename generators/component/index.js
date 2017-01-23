@@ -10,6 +10,13 @@ module.exports = Generator.extend({
       'Welcome to the dazzling ' + chalk.red('generator-ng-es-6') + ' generator!'
     ));
 
+    var prompts = [{
+      type    : 'input',
+      name    : 'name',
+      message : 'Your component name',
+      default : this.appname // Default to current folder name
+    }];
+
     return this.prompt(prompts).then(function (props) {
       // To access props later use this.props.someAnswer;
       this.props = props;
@@ -17,9 +24,15 @@ module.exports = Generator.extend({
   },
 
   writing: function () {
+    console.log('this.props.name: ', this.props.name);
+    this.fs.copyTpl(
+      this.templatePath('component.js'),
+      this.destinationPath(this.props.name + '.component.js'),
+      {name: this.props.name}
+    );
   },
 
   install: function () {
-    this.installDependencies();
+    // this.installDependencies();
   }
 });
