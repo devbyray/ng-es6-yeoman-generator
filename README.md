@@ -12,18 +12,27 @@ npm install -g yo
 npm install -g generator-ng-es-6
 ```
 
-Then generate your new project:
+## How to use the ng-es-6 yeoman generator
 
+**Create Angular ES6 module**
 ```bash
-yo ng-es-6
+yo ng-es-6:module
 ```
+The generator will ask for a name to create an Angular ES6 module.
 
-## Getting To Know Yeoman
+**Create Angular ES6 service**
+```bash
+yo ng-es-6:service
+```
+The generator will ask for a name to create an Angular ES6 service.
 
- * Yeoman has a heart of gold.
- * Yeoman is a person with feelings and opinions, but is very easy to work with.
- * Yeoman can be too opinionated at times but is easily convinced not to be.
- * Feel free to [learn more about Yeoman](http://yeoman.io/).
+
+**Create Angular ES6 component**
+```bash
+yo ng-es-6:component
+```
+The generator will ask for a name to create an Angular ES6 component.
+
 
 ## License
 
@@ -31,10 +40,10 @@ unlicense © [Raymon Schouwenaar](raymonschouwenaar.nl)
 
 
 [npm-image]: https://badge.fury.io/js/generator-ng-es-6.svg
-[npm-url]: https://npmjs.org/package/generator-ng-es-6
+[npm-url]: https://www.npmjs.com/package/generator-ng-es-6
 [travis-image]: https://travis-ci.org/raymonschouwenaar/generator-ng-es-6.svg?branch=master
 [travis-url]: https://travis-ci.org/raymonschouwenaar/generator-ng-es-6
 [daviddm-image]: https://david-dm.org/raymonschouwenaar/generator-ng-es-6.svg?theme=shields.io
 [daviddm-url]: https://david-dm.org/raymonschouwenaar/generator-ng-es-6
-[coveralls-image]: https://coveralls.io/repos/raymonschouwenaar/generator-ng-es-6/badge.svg
-[coveralls-url]: https://coveralls.io/r/raymonschouwenaar/generator-ng-es-6
+[coveralls-image]: https://coveralls.io/repos/raymonschouwenaar/ng-es6-yeoman-generator/badge.svg
+[coveralls-url]: https://coveralls.io/github/raymonschouwenaar/ng-es6-yeoman-generator
