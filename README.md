@@ -1,5 +1,7 @@
-# generator-ng-es-6 [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage percentage][coveralls-image]][coveralls-url]
+# generator-ng-es-6 [![NPM version][npm-image]][npm-url] [![Build Status](https://travis-ci.org/raymonschouwenaar/ng-es6-yeoman-generator.svg?branch=master)](https://travis-ci.org/raymonschouwenaar/ng-es6-yeoman-generator) [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage percentage][coveralls-image]][coveralls-url]
 > 
+
+
 
 ## Installation
 
